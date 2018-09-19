@@ -296,26 +296,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <h4 id="shell-windows">Windows</h4>
       <ol>
         <li>Ask the JAX IT Service Desk to download and install <a href="https://putty.org/">PuTTY</a>.</li>
-        <li>Run the installer and follow the steps below:
-          <ol>
-            {% comment %} Git 2.18.0 Setup {% endcomment %}
-            <li>
-                Click on "Next" four times (two times if you've previously
-                installed Git).  You don't need to change anything
-                in the Information, location, components, and start menu screens.
-            </li>
-        <li>
-          If your "HOME" environment variable is not set (or you don't know what this is):
-          <ol>
-            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-            <li>
-              Type the following line into the command prompt window exactly as shown:
-              <p><code>setx HOME "%USERPROFILE%"</code></p>
-            </li>
-            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-          </ol>
-        </li>
       </ol>
     </div>
     <div class="col-md-4">
@@ -340,7 +320,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         install anything.
       </p>
     </div>
-  </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
 
