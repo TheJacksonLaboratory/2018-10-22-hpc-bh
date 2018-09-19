@@ -245,13 +245,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
+
 
 <hr/>
 
@@ -383,11 +378,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
 <div id="cluster"> {% comment %} Start of 'cluster' section. {% endcomment %}
-<div class="row">
-    <div class="col-md-4">
-        <h3>Cluster Access</h3>
-            <p>
-                Ask the JAX IT Service Desk to give you access to Cadillac (Bar Harbor) or Helix (Farmington).
-            </p>
+    <h3>High Performance Computing Cluster</h3>
+    <p>
+    JAX provides access to high performance computing (HPC) through two computing clusters:
+    1) Cadillac, which serves Bar Harbor; and
+    2) Helix, which serves Farmington.
+    </p>
+    <div class="row">
+        <div class="col-md-4">
+            <h4 id="shell-windows">Cluster Access</h4>
+            Ask the JAX IT Service Desk to give you an account for Cadillac (Bar Harbor) or Helix (Farmington).
+        </div>
     </div>
 </div> {% comment %} End of 'cluster' section. {% endcomment %}
